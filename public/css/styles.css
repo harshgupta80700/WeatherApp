@@ -1,10 +1,11 @@
 h1{
-    font-size: 50px;
+    font-size: 50px !important;
 }
 
-img{
-    width: 600px;
-    height: 600px;
+.myimg{
+    width: 300px;
+    /* padding: rem; */
+    margin: auto;
 }
 
 h2{
@@ -12,8 +13,8 @@ h2{
 }
 
 body{
-    background-color: wheat;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: wheat !important;
+    font-family: Arial, Helvetica, sans-serif !important;
 
     display: flex;
     flex-direction: column;
@@ -29,15 +30,23 @@ footer{
     color: white;
 }
 
-header{
+/* header{
     background-color: black;
     color: white;
     margin-bottom: 20px;
-}
+} */
 
 header a{
     
     color: #888888;
     margin-right: 10px;
     text-decoration: none;
+}
+
+.mainbox{
+    width: fit-content;
+    margin: auto;
+    border: 2px solid black;
+    padding: 2rem;
+    border-radius: 20px;
 }
